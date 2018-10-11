@@ -1,0 +1,35 @@
+{
+  "name": "react-cdo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "react": "16.5.2",
+    "react-dom": "16.5.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "1.0.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-sequence": "1.0.0",
+    "path": "^0.12.7",
+    "react-hot-loader": "^1.3.0",
+    "style-loader": "0.23.1",
+    "url-loader": "1.1.1",
+    "vinyl-paths": "^2.1.0",
+    "webpack": "^1.13.1",
+    "webpack-combine-loaders": "2.0.4",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
