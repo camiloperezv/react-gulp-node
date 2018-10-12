@@ -43,11 +43,11 @@ In the future i planned to add a script to create automatically a module, but no
   - Create the route
 
     To create a route go to `routes/index.js` and add a new route and put a line like this in it `res.sendFile(path.join(__dirname, '../public', 'build_react_apps', 'CHANGE_ME', 'index.html'));` making sure to change the `CHANGE_ME` string for your project name
-    
+
 ## How to run it
 
 To run the project in development mode you shoudl start the node server in one terminal using `nodemon` or whatever you want, in other terminar you should run `gulp react:dev`
 
 ## How to build it
 
-To build the project run `gulp react:dev`
+To build the project run `gulp build`
